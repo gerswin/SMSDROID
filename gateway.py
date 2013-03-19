@@ -3,6 +3,7 @@ import sqlite3
 import sys
 import time
 
+
 def guardardb(numero,txt,status):
     t = (numero,txt,status)
     connection = sqlite3.connect('sms.sqlite')
